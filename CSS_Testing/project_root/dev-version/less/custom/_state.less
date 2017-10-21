@@ -1,8 +1,37 @@
-@import url(custom/_variables.less);
-@import url(../assets/bootstap/less/bootsrap.less);
-@import url(custom/_base.less);
-@import url(custom/_layout.less);
-@import url(custom/_module.less);
-@import url(custom/_state.less);
-@import url(custom/_responsive.less);
-@import url(custom/_theme.less);
+/*
+All the hover states for interactivity of the page
+animations carosel etc
+-------------------------
+*/
+.hover-container{
+	&:hover{
+		.b-top{
+			width: 100%;
+		}
+		.b-left{
+			height: 100%;
+		}
+		.b-right{
+			height: 100%;
+		}
+		.b-bottom{
+			width: 100%;
+		}
+	}
+}
+
+.header-trigger.close-trigger{
+	.bar.top{
+		top: 20px;
+		-moz-transform: rotation(40deg);
+		-webkit-transform: rotation(40deg);
+	}
+	.bar-mid{
+		opacity: 0;
+	}
+	.bar.bottom{
+		top: 20px;
+		-moz-transform: rotation(-40deg);
+		-webkit-transform: rotation(-40deg);
+	}
+}
