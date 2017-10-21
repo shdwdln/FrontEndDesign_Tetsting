@@ -1,0 +1,15 @@
+git clone https://github.com/shdwdln/FrontEndDesign_Tetsting.git
+
+echo "# FrontEndDesign_Tetsting" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shdwdln/FrontEndDesign_Tetsting.git
+git push -u origin master
+
+
+git config --global user.email "shdwdln@gmail.com"
+git config --global user.name "shdw.dln"
+
+# this pushed my local changes to the server
+git push -u origin master
