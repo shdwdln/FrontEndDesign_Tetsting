@@ -37,3 +37,24 @@ CDN (Content Delivery Network)
 
  JSON
  JQuery - Only if comfortable with JS
+
+
+git clone site.git
+git status
+git add .
+git commit -m "message"
+git push -u origin master
+
+
+
+
+
+.container-fluid   - for a full width container, spanning the entire width of the viewport.
+
+------------------------------
+S A S S
+------------------------------
+gem install sass
+sass --watch sass_folder:stylesheets_folder 
+
+$ sassc myfile.scss myfile.css
