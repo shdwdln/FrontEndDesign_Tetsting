@@ -1,0 +1,20 @@
+users
+    - id
+    - first_name
+    - last_name
+    - email_address
+transaction 
+    - id 
+    - user_id
+    - goal_id 
+    - category_id
+    - amount    
+goals 
+    - id
+    - user_id
+    - amount 
+    - start_date 
+    - end_date 
+categories
+    - id
+    - name
