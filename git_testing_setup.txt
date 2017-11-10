@@ -13,3 +13,10 @@ git config --global user.name "shdw.dln"
 
 # this pushed my local changes to the server
 git push -u origin master
+
+-------------------------------------------------
+If you are getting an error from git cloning:
+error: error setting certificate verify locations:
+
+you can turn off SSL:
+git config --system http.sslverify false
